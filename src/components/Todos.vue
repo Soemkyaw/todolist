@@ -4,6 +4,7 @@
     <div class="container">
       <AddTodo></AddTodo>
       <LimitTodos></LimitTodos>
+      <small class="text-secondary">( Hit - If u complete todo use double click )</small>
       <div class="row " >
         <div class="col-md-4 my-3" v-for="todo in todos" :key="todo.id">
           <b-card
